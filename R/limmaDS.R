@@ -9,7 +9,6 @@
 #' @return a matrix with genes ordered by p-value
 #' @author Gonzalez, JR.
 #'
-#' @import dplyr
 #' @export 
 #' 
 limmaDS <- function(Set, variable_names, covariable_names, type, sva, annotCols=NULL){
