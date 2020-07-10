@@ -17,6 +17,8 @@
 #' @return a matrix with SNPs ordered by p-values
 #' 
 #' @author Gonzalez, JR.
+#' 
+#' @import dplyr
 #'
 #' @export 
 #' 

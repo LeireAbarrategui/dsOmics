@@ -6,6 +6,8 @@
 #' @param ... 
 #' 
 #' @author Gonzalez, JR.
+#' 
+#' @import readr
 #'
 #' @export 
 #' 
