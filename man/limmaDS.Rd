@@ -2,9 +2,19 @@
 % Please edit documentation in R/limmaDS.R
 \name{limmaDS}
 \alias{limmaDS}
-\title{Differential expression analysis using limma}
+\title{Differential expression analysis using limma on the server-side}
 \usage{
-limmaDS(Set, variable_names, covariable_names, type, sva, annotCols = NULL)
+limmaDS(
+  Set,
+  variable_names,
+  covariable_names,
+  type,
+  contrasts,
+  levels,
+  coef,
+  sva,
+  annotCols = NULL
+)
 }
 \arguments{
 \item{Set}{either a \code{ExpressionSet} or a \code{RangedSummarizedExperiment}}

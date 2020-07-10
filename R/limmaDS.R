@@ -17,7 +17,7 @@ limmaDS <- function(Set, variable_names, covariable_names, type, sva, annotCols=
     covariable_names <- unlist(strsplit(covariable_names, split=","))
   if (!is.null(annotCols))
     annotCols <- unlist(strsplit(annotCols, split=","))
- 
+  
   
   if (type==2){
     if(inherits(Set, "ExpressionSet")){
@@ -40,7 +40,7 @@ limmaDS <- function(Set, variable_names, covariable_names, type, sva, annotCols=
   if (!is.null(annotCols)){
     annotCols <- unlist(strsplit(annotCols, split=","))
   }
-    
+  
   res <- MEAL::runPipeline(set = Set, 
                            variable_names = variable_names,
                            covariable_names = covariable_names,
